@@ -1,0 +1,29 @@
+***The pseudocode to explain how the logic of the extension should work.***
+
+On extension install or first run 
+	LOAD saved themes from storage 
+	IF no saved themes 
+		Create a default theme list 
+	ELSE 
+		SAVE themes to storage 
+	ENDIF 
+
+
+WHEN user opens the extension pop-up 
+	LOAD themes from storage 
+	DISPLAY list of themes (names + preview) 
+	DISPLAY “Create new theme” button 
+
+
+WHEN user selects an existing theme 
+	FIND theme data by name/id 
+	CALL “apply theme” with that data 
+	SAVE “last used theme” in storage 
+
+
+WHEN user clicks “Create new theme” 
+	SHOW form: choose colors (toolbar, background, text, etc.), maybe upload an image 
+	WHEN user clicks “Save Theme” 
+		Validate required fields (at least a name and some colors) 
+		BUILD a theme object (colors, images) 
+		ADD theme to theme list in storage 
