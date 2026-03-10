@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Anonymous Theme Switcher",
     "version": "1.0.0",
-    "description": "Changes theme groups.",
+    "description": "Organize and switch Firefox themes by group.",
     "author": "Team Anonymous",
     "developer": {
         "name": "Ramin, Daniel, Julian, Alejandro, Moe"
