@@ -1,14 +1,14 @@
 {
   "name": "assignment1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Firefox extension to organize and switch themes by group",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
     "docs": "jsdoc -c jsdoc.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "Team Anonymous",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
