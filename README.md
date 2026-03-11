@@ -22,13 +22,10 @@ project-root
 │ ├─ popup.js
 │ ├─ background.js
 │ └─ popup.html
-
 ├─ docs/ # Generated JSDoc HTML documentation
 │ └─ index.html
-
 ├─ manifest.json # Firefox extension configuration
 ├─ package.json # Project dependencies and scripts
-
 └─ .github/workflows/
 └─ ci.yml # CI pipeline configuration
 
