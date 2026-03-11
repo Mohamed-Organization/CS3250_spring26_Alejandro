@@ -5,8 +5,6 @@
  *
  * Responsibilities:
  * - Store and retrieve theme group data via browser.storage.local.
- * - Cycle through images in the active group on a timed alarm.
- * - Broadcast background image changes to all open tabs.
  * - Handle messages from the popup (getState, setActiveGroup, next).
  * - Populate default data on first install.
  *
