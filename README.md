@@ -33,7 +33,7 @@ project-root
 └─ .github/
    └─ workflows/
       └─ ci.yml         # CI pipeline configuration
-
+```
 ---
 
 ## Installation
