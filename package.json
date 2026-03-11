@@ -1,21 +1,13 @@
 {
-  "name": "assignment1",
+  "name": "anonymous-theme-switcher",
   "version": "1.0.0",
-  "description": "Firefox extension to organize and switch themes by group",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage",
-    "docs": "jsdoc -c jsdoc.json"
-  },
-  "keywords": [],
+  "description": "Firefox extension that switches between theme groups",
   "author": "Team Anonymous",
-  "license": "ISC",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
-    "globals": "^17.3.0",
-    "jest": "^30.2.0",
-    "jest-environment-jsdom": "^30.3.0",
-    "jsdoc": "^4.0.5"
+    "eslint": "^9.0.0"
   }
 }
