@@ -16,9 +16,6 @@ Anonymous Theme Switcher is a Firefox extension that allows users to easily swit
 
 ## Project Structure
 
-## Project Structure
-
-```te
 project-root
 │
 ├─ src/                 # Source code for the extension
@@ -35,6 +32,7 @@ project-root
 └─ .github/
    └─ workflows/
       └─ ci.yml         # CI pipeline configuration
+
 
 ---
 
